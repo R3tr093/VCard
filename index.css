@@ -1,0 +1,57 @@
+.test
+{
+    border: 1px solid black;
+}
+
+#avatar
+{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#badgeWrap
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#wrapAvatar
+{
+    box-shadow: inset 5em 0em cornflowerblue;
+    margin-top: 10px;
+}
+
+#myCard
+{
+  border: 2px solid cornflowerblue;
+    box-shadow: 12px 12px 2px 1px grey;
+}
+
+#wrapVCard
+{
+    margin-top: 20px;
+    
+}
+
+#wrapVCard
+{
+  position: relative;
+  animation-name: anime1;
+  animation-duration: 3s;
+   
+} 
+
+#footerGif
+{
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+}
+
+ @keyframes anime1{
+  0%   {top:-600px;}
+  100%  {top:0px;}
+  
+}
